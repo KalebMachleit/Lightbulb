@@ -7,10 +7,13 @@ html, body {
     color: var(--text);
 }
 
+body {
+    background-color: gray;
+}
+
 #container {
     width: 100%;
     height: 100%;
-    background-color: gray;
     display: flex;
     flex-direction: column;
     justify-content: center;
